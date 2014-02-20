@@ -1,8 +1,15 @@
 {
   "name": "seed_express",
   "version": "0.1.0",
-  "description": "The bones of an Express.js project",
+  "description": "A seed for Express applications",
+  "scripts": {
+    "start": "node server.js"
+  },
   "main": "server.js",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/jczaplew/seed_express.git"
+  },
   "author": "John J Czaplewski",
   "license": "CC0",
   "dependencies": {
